@@ -1,0 +1,2656 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: "Nuosu SIL";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd1
+{
+   clear: both;
+   position: fixed;
+   left: 0;
+   top: 0;
+   z-index: 7777;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lytd1
+{
+   box-sizing: border-box;
+   padding: 35px 15px 15px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#lytd1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd1 > .row > .col-1, #lytd1 > .row > .col-2, #lytd1 > .row > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lytd1 > .row > .col-1, #lytd1 > .row > .col-2, #lytd1 > .row > .col-3
+{
+   float: left;
+}
+#lytd1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   width: 33.33333333%;
+   text-align: center;
+}
+#lytd1 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 3px;
+   width: 33.33333333%;
+   text-align: center;
+}
+#lytd1 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   width: 33.33333333%;
+   text-align: center;
+}
+#lytd1:before,
+#lytd1:after,
+#lytd1 .row:before,
+#lytd1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#lytd1:after,
+#lytd1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lytd1 > .row > .col-1, #lytd1 > .row > .col-2, #lytd1 > .row > .col-3
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#aar_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#aar_Text1 div
+{
+   text-align: center;
+}
+#aar_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#aar_Text2 div
+{
+   text-align: center;
+}
+#aar_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#aar_Text3
+{
+   color: #1A1A1A;
+   font-family: "Nuosu SIL";
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 19px;
+}
+#aar_Text3 p, #aar_Text3 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#aar_Text4 div
+{
+   text-align: center;
+}
+#aar_lytd2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lytd2
+{
+   box-sizing: border-box;
+   padding: 130px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#lytd2 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lytd2 > .row > .col-1
+{
+   float: left;
+}
+#lytd2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#lytd2:before,
+#lytd2:after,
+#lytd2 .row:before,
+#lytd2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#lytd2:after,
+#lytd2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lytd2 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#aar_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#aar_Text5 div
+{
+   text-align: center;
+}
+#aar_lytd4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lytd4
+{
+   box-sizing: border-box;
+   padding: 25px 15px 55px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#lytd4 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd4 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lytd4 > .row > .col-1
+{
+   float: left;
+}
+#lytd4 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#lytd4:before,
+#lytd4:after,
+#lytd4 .row:before,
+#lytd4 .row:after
+{
+   display: table;
+   content: " ";
+}
+#lytd4:after,
+#lytd4 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lytd4 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#aar_TextMenu1
+{
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: "Nuosu SIL";
+   font-weight: normal;
+   font-size: 13px;
+   margin: 0;
+   text-align: center;
+}
+#aar_TextMenu1 span
+{
+   margin: 0 7px 0 0px;
+}
+#aar_lytd5
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lytd5
+{
+   box-sizing: border-box;
+   padding: 25px 15px 55px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#lytd5 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd5 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lytd5 > .row > .col-1
+{
+   float: left;
+}
+#lytd5 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#lytd5:before,
+#lytd5:after,
+#lytd5 .row:before,
+#lytd5 .row:after
+{
+   display: table;
+   content: " ";
+}
+#lytd5:after,
+#lytd5 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lytd5 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#aar_img1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#img1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   display: inline-block;
+   width: 526px;
+   height: 381px;
+   vertical-align: top;
+}
+#aar_lytd3
+{
+   clear: both;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   z-index: 7777;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lytd3
+{
+   box-sizing: border-box;
+   padding: 110px 15px 15px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#lytd3 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd3 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lytd3 > .row > .col-1
+{
+   float: left;
+}
+#lytd3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#lytd3:before,
+#lytd3:after,
+#lytd3 .row:before,
+#lytd3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#lytd3:after,
+#lytd3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lytd3 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#aar_img1
+{
+   display: inline-block;
+   width: 526px;
+   height: 381px;
+   z-index: 5;
+}
+#aar_TextMenu1
+{
+   display: inline-block;
+   width: 522px;
+   height: 20px;
+   z-index: 4;
+}
+@media only screen and (min-width: 800px) and (max-width: 969px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#aar_lytd1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd1
+{
+   padding: 35px 15px 15px 15px;
+}
+#lytd1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd1 > .row > .col-1, #lytd1 > .row > .col-2, #lytd1 > .row > .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd1 > .row > .col-1
+{
+   display: block;
+   width: 33.33333333%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#lytd1 > .row > .col-2
+{
+   display: block;
+   width: 33.33333333%;
+   border: 3px solid #FFFFFF;
+   border-radius: 3px;
+   text-align: center;
+}
+#lytd1 > .row > .col-3
+{
+   display: block;
+   width: 33.33333333%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#aar_Text1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd2
+{
+   padding: 130px 15px 0px 15px;
+}
+#lytd2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_Text5
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd4
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_TextMenu1
+{
+   width: 395px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 13px;
+   font-family: "Nuosu SIL";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   text-align: center;
+}
+#aar_lytd5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd5
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_img1
+{
+   width: 395px;
+   height: 286px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#img1
+{
+   width: 395px;
+   height: 286px;
+}
+#aar_lytd3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd3
+{
+   padding: 110px 15px 15px 15px;
+}
+#lytd3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#aar_lytd1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd1
+{
+   padding: 35px 15px 15px 15px;
+}
+#lytd1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd1 > .row > .col-1, #lytd1 > .row > .col-2, #lytd1 > .row > .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd1 > .row > .col-1
+{
+   display: block;
+   width: 33.33333333%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#lytd1 > .row > .col-2
+{
+   display: block;
+   width: 33.33333333%;
+   border: 3px solid #FFFFFF;
+   border-radius: 3px;
+   text-align: center;
+}
+#lytd1 > .row > .col-3
+{
+   display: block;
+   width: 33.33333333%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#aar_Text1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd2
+{
+   padding: 130px 15px 0px 15px;
+}
+#lytd2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_Text5
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd4
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_TextMenu1
+{
+   width: 395px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 13px;
+   font-family: "Nuosu SIL";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   text-align: center;
+}
+#aar_lytd5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd5
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_img1
+{
+   width: 395px;
+   height: 286px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#img1
+{
+   width: 395px;
+   height: 286px;
+}
+#aar_lytd3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd3
+{
+   padding: 110px 15px 15px 15px;
+}
+#lytd3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+}
+@media only screen and (min-width: 700px) and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#aar_lytd1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd1
+{
+   padding: 35px 15px 15px 15px;
+}
+#lytd1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd1 > .row > .col-1, #lytd1 > .row > .col-2, #lytd1 > .row > .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd1 > .row > .col-1
+{
+   display: block;
+   width: 33.33333333%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#lytd1 > .row > .col-2
+{
+   display: block;
+   width: 33.33333333%;
+   border: 3px solid #FFFFFF;
+   border-radius: 3px;
+   text-align: center;
+}
+#lytd1 > .row > .col-3
+{
+   display: block;
+   width: 33.33333333%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#aar_Text1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd2
+{
+   padding: 130px 15px 0px 15px;
+}
+#lytd2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_Text5
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd4
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_TextMenu1
+{
+   width: 395px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 13px;
+   font-family: "Nuosu SIL";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   text-align: center;
+}
+#aar_lytd5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd5
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_img1
+{
+   width: 395px;
+   height: 286px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#img1
+{
+   width: 395px;
+   height: 286px;
+}
+#aar_lytd3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd3
+{
+   padding: 110px 15px 15px 15px;
+}
+#lytd3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 699px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#aar_lytd1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd1
+{
+   padding: 35px 15px 15px 15px;
+}
+#lytd1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd1 > .row > .col-1, #lytd1 > .row > .col-2, #lytd1 > .row > .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#lytd1 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 3px solid #FFFFFF;
+   border-radius: 3px;
+   text-align: center;
+}
+#lytd1 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#aar_Text1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd2
+{
+   padding: 130px 15px 0px 15px;
+}
+#lytd2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_Text5
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd4
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_TextMenu1
+{
+   width: 395px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 13px;
+   font-family: "Nuosu SIL";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   text-align: center;
+}
+#aar_lytd5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd5
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_img1
+{
+   width: 395px;
+   height: 286px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#img1
+{
+   width: 395px;
+   height: 286px;
+}
+#aar_lytd3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd3
+{
+   padding: 110px 15px 15px 15px;
+}
+#lytd3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+}
+@media only screen and (min-width: 425px) and (max-width: 479px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#aar_lytd1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd1
+{
+   padding: 35px 15px 15px 15px;
+}
+#lytd1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd1 > .row > .col-1, #lytd1 > .row > .col-2, #lytd1 > .row > .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#lytd1 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 3px solid #FFFFFF;
+   border-radius: 3px;
+   text-align: center;
+}
+#lytd1 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#aar_Text1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd2
+{
+   padding: 130px 15px 0px 15px;
+}
+#lytd2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_Text5
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd4
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_TextMenu1
+{
+   width: 395px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 13px;
+   font-family: "Nuosu SIL";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   text-align: center;
+}
+#aar_lytd5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd5
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_img1
+{
+   width: 395px;
+   height: 286px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#img1
+{
+   width: 395px;
+   height: 286px;
+}
+#aar_lytd3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd3
+{
+   padding: 110px 15px 15px 15px;
+}
+#lytd3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+}
+@media only screen and (min-width: 384px) and (max-width: 424px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#aar_lytd1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd1
+{
+   padding: 35px 15px 15px 15px;
+}
+#lytd1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd1 > .row > .col-1, #lytd1 > .row > .col-2, #lytd1 > .row > .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#lytd1 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 3px solid #FFFFFF;
+   border-radius: 3px;
+   text-align: center;
+}
+#lytd1 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#aar_Text1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd2
+{
+   padding: 130px 15px 0px 15px;
+}
+#lytd2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_Text5
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd4
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_TextMenu1
+{
+   width: 354px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 15px;
+   font-family: "Nuosu SIL";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   text-align: center;
+}
+#aar_lytd5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd5
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_img1
+{
+   width: 354px;
+   height: 257px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#img1
+{
+   width: 354px;
+   height: 257px;
+}
+#aar_lytd3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd3
+{
+   padding: 110px 15px 15px 15px;
+}
+#lytd3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+}
+@media only screen and (max-width: 383px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#aar_lytd1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd1
+{
+   padding: 35px 15px 15px 15px;
+}
+#lytd1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd1 > .row > .col-1, #lytd1 > .row > .col-2, #lytd1 > .row > .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#lytd1 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 3px solid #FFFFFF;
+   border-radius: 3px;
+   text-align: center;
+}
+#lytd1 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 5px solid #FFFFFF;
+   border-radius: 5px;
+   text-align: center;
+}
+#aar_Text1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text3
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_Text4
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd2
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd2
+{
+   padding: 130px 15px 0px 15px;
+}
+#lytd2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#aar_Text5
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#aar_lytd4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd4
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_TextMenu1
+{
+   width: 290px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 13px;
+   font-family: "Nuosu SIL";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   text-align: center;
+}
+#aar_lytd5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd5
+{
+   padding: 25px 15px 55px 15px;
+}
+#lytd5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#aar_img1
+{
+   width: 290px;
+   height: 210px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#img1
+{
+   width: 290px;
+   height: 210px;
+}
+#aar_lytd3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#aar_lytd3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lytd3
+{
+   padding: 110px 15px 15px 15px;
+}
+#lytd3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lytd3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lytd3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+}
