@@ -1,0 +1,6190 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#cardcon1
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-align-items: stretch;
+   align-items: stretch;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+@media all and (max-width:480px) 
+{
+#cardcon1
+{
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+}
+}
+#card2
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid #222222;
+   margin: 5px 15px 5px 15px;
+   padding: 0;
+   text-align: center;
+}
+#Card2-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card2-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #222222;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card2-card-item0 a
+{
+   color: #222222;
+   text-decoration: none;
+}
+#card3
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid #888888;
+   margin: 5px 15px 5px 15px;
+   padding: 0;
+   text-align: center;
+}
+#Card3-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card3-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card3-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#card4
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid #888888;
+   margin: 5px 15px 5px 15px;
+   padding: 0;
+   text-align: center;
+}
+#Card4-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card4-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card4-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#grid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lygrid1
+{
+   box-sizing: border-box;
+   padding: 20px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#lygrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lygrid1 > .row > .col-1
+{
+   float: left;
+}
+#lygrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#lygrid1:before,
+#lygrid1:after,
+#lygrid1 .row:before,
+#lygrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#lygrid1:after,
+#lygrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lygrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#texto1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0px 15px 0px 15px;
+   text-align: left;
+}
+#texto1 div
+{
+   text-align: left;
+}
+#grid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lygrid2
+{
+   box-sizing: border-box;
+   padding: 15px 15px 15px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#lygrid2 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lygrid2 > .row > .col-1
+{
+   float: left;
+}
+#lygrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#lygrid2:before,
+#lygrid2:after,
+#lygrid2 .row:before,
+#lygrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#lygrid2:after,
+#lygrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lygrid2 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#texto2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0px 15px 0px 15px;
+   text-align: left;
+}
+#texto2 div
+{
+   text-align: left;
+}
+#card1
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-color: #FFFF00;
+   background-image: none;
+   border: 1px dashed #FFFF00;
+   border-radius: 15px;
+   box-sizing: border-box;
+   margin: 10px 10px 0px 10px;
+   padding: 0;
+   text-align: left;
+}
+#Card1-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card1-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 15px 15px 0 0;
+   margin: 15px 15px 5px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#Card1-card-item1
+{
+   box-sizing: border-box;
+   border-radius: 0 0 15px 15px;
+   margin: 0px 15px 15px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#grid5
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lygrid5
+{
+   box-sizing: border-box;
+   padding: 0px 15px 10px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#lygrid5 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid5 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lygrid5 > .row > .col-1
+{
+   float: left;
+}
+#lygrid5 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#lygrid5:before,
+#lygrid5:after,
+#lygrid5 .row:before,
+#lygrid5 .row:after
+{
+   display: table;
+   content: " ";
+}
+#lygrid5:after,
+#lygrid5 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lygrid5 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#card7
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 3px;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#Card7-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card7-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 10px 15px 10px 15px;
+   border-top: 1px #DEDEDE solid;
+   border-width: 1px 0 0 0;
+   height: 0;
+   line-height: 0;
+}
+#cardcon2
+{
+   display: -webkit-flex;
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-align-items: stretch;
+   align-items: stretch;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin: 0px 15px 0px 15px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+@media all and (max-width:480px) 
+{
+#cardcon2
+{
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+}
+}
+#card6
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   padding: 0;
+   text-align: center;
+}
+#Card6-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card6-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card5
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   padding: 0;
+   text-align: center;
+}
+#Card5-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card5-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card8
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   padding: 0;
+   text-align: center;
+}
+#Card8-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card8-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card9
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   padding: 0;
+   text-align: center;
+}
+#Card9-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card9-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#grid4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lygrid4
+{
+   box-sizing: border-box;
+   padding: 0px 15px 100px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#lygrid4 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid4 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lygrid4 > .row > .col-1
+{
+   float: left;
+}
+#lygrid4 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#lygrid4:before,
+#lygrid4:after,
+#lygrid4 .row:before,
+#lygrid4 .row:after
+{
+   display: table;
+   content: " ";
+}
+#lygrid4:after,
+#lygrid4 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lygrid4 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#grid3
+{
+   clear: both;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   z-index: 7777;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lygrid3
+{
+   box-sizing: border-box;
+   padding: 5px 15px 10px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#lygrid3 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid3 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lygrid3 > .row > .col-1
+{
+   float: left;
+}
+#lygrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#lygrid3:before,
+#lygrid3:after,
+#lygrid3 .row:before,
+#lygrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#lygrid3:after,
+#lygrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lygrid3 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#card6
+{
+   display: flex;
+   text-align: center;
+   z-index: 6;
+}
+#card1
+{
+   display: flex;
+   width: calc(100% - 20px);
+   z-index: 10;
+}
+#card3
+{
+   display: flex;
+   text-align: center;
+   z-index: 1;
+}
+#card2
+{
+   display: flex;
+   text-align: center;
+   z-index: 0;
+}
+#card9
+{
+   display: flex;
+   text-align: center;
+   z-index: 8;
+}
+#card8
+{
+   display: flex;
+   text-align: center;
+   z-index: 9;
+}
+#card5
+{
+   display: flex;
+   text-align: center;
+   z-index: 7;
+}
+#card4
+{
+   display: flex;
+   text-align: center;
+   z-index: 2;
+}
+#card7
+{
+   display: flex;
+   width: 100%;
+   text-align: center;
+   z-index: 5;
+}
+@media only screen and (min-width: 980px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#cardcon1
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card2
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card2-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #222222;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card2-card-item0 a
+{
+   color: #222222;
+   text-decoration: none;
+}
+#card3
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card3-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card3-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#card4
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card4-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card4-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#grid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid1
+{
+   padding: 20px 15px 0px 15px;
+}
+#lygrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid1 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto1
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#grid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid2
+{
+   padding: 15px 15px 15px 15px;
+}
+#lygrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto2
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#card1
+{
+   width: calc(100% - 20px);
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFF00;
+   background-image: none;
+   border-radius: 15px;
+   margin: 10px 10px 0px 10px;
+}
+#Card1-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 15px 15px 0 0;
+   margin: 15px 15px 5px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#Card1-card-item1
+{
+   box-sizing: border-box;
+   border-radius: 0 0 15px 15px;
+   margin: 0px 15px 15px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#grid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid5
+{
+   padding: 0px 15px 10px 15px;
+}
+#lygrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#card7
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 0;
+}
+#Card7-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 10px 15px 10px 15px;
+   border-top: 1px #DEDEDE solid;
+   border-width: 1px 0 0 0;
+   height: 0;
+   line-height: 0;
+}
+#cardcon2
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card6
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card6-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card5
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card5-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card8
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card8-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card9
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card9-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#grid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid4
+{
+   padding: 0px 15px 100px 15px;
+}
+#lygrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#grid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid3
+{
+   padding: 5px 15px 10px 15px;
+}
+#lygrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 979px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#cardcon1
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card2
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card2-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #222222;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card2-card-item0 a
+{
+   color: #222222;
+   text-decoration: none;
+}
+#card3
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card3-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card3-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#card4
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card4-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card4-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#grid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid1
+{
+   padding: 20px 15px 0px 15px;
+}
+#lygrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid1 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto1
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#grid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid2
+{
+   padding: 15px 15px 15px 15px;
+}
+#lygrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto2
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#card1
+{
+   width: calc(100% - 20px);
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFF00;
+   background-image: none;
+   border-radius: 15px;
+   margin: 10px 10px 0px 10px;
+}
+#Card1-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 15px 15px 0 0;
+   margin: 15px 15px 5px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#Card1-card-item1
+{
+   box-sizing: border-box;
+   border-radius: 0 0 15px 15px;
+   margin: 0px 15px 15px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#grid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid5
+{
+   padding: 0px 15px 10px 15px;
+}
+#lygrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#card7
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 0;
+}
+#Card7-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 10px 15px 10px 15px;
+   border-top: 1px #DEDEDE solid;
+   border-width: 1px 0 0 0;
+   height: 0;
+   line-height: 0;
+}
+#cardcon2
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card6
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card6-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card5
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card5-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card8
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card8-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card9
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card9-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#grid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid4
+{
+   padding: 0px 15px 100px 15px;
+}
+#lygrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#grid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid3
+{
+   padding: 5px 15px 10px 15px;
+}
+#lygrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#cardcon1
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card2
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card2-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #222222;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card2-card-item0 a
+{
+   color: #222222;
+   text-decoration: none;
+}
+#card3
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card3-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card3-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#card4
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card4-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card4-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#grid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid1
+{
+   padding: 20px 15px 0px 15px;
+}
+#lygrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid1 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto1
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#grid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid2
+{
+   padding: 15px 15px 15px 15px;
+}
+#lygrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto2
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#card1
+{
+   width: calc(100% - 20px);
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFF00;
+   background-image: none;
+   border-radius: 15px;
+   margin: 10px 10px 0px 10px;
+}
+#Card1-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 15px 15px 0 0;
+   margin: 15px 15px 5px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#Card1-card-item1
+{
+   box-sizing: border-box;
+   border-radius: 0 0 15px 15px;
+   margin: 0px 15px 15px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#grid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid5
+{
+   padding: 0px 15px 10px 15px;
+}
+#lygrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#card7
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 0;
+}
+#Card7-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 10px 15px 10px 15px;
+   border-top: 1px #DEDEDE solid;
+   border-width: 1px 0 0 0;
+   height: 0;
+   line-height: 0;
+}
+#cardcon2
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card6
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card6-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card5
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card5-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card8
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card8-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card9
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card9-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#grid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid4
+{
+   padding: 0px 15px 100px 15px;
+}
+#lygrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#grid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid3
+{
+   padding: 5px 15px 10px 15px;
+}
+#lygrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+}
+@media only screen and (min-width: 700px) and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#cardcon1
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card2
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card2-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #222222;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card2-card-item0 a
+{
+   color: #222222;
+   text-decoration: none;
+}
+#card3
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card3-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card3-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#card4
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card4-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card4-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#grid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid1
+{
+   padding: 20px 15px 0px 15px;
+}
+#lygrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid1 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto1
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#grid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid2
+{
+   padding: 15px 15px 15px 15px;
+}
+#lygrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto2
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#card1
+{
+   width: calc(100% - 20px);
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFF00;
+   background-image: none;
+   border-radius: 15px;
+   margin: 10px 10px 0px 10px;
+}
+#Card1-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 15px 15px 0 0;
+   margin: 15px 15px 5px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#Card1-card-item1
+{
+   box-sizing: border-box;
+   border-radius: 0 0 15px 15px;
+   margin: 0px 15px 15px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#grid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid5
+{
+   padding: 0px 15px 10px 15px;
+}
+#lygrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#card7
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 0;
+}
+#Card7-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 10px 15px 10px 15px;
+   border-top: 1px #DEDEDE solid;
+   border-width: 1px 0 0 0;
+   height: 0;
+   line-height: 0;
+}
+#cardcon2
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card6
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card6-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card5
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card5-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card8
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card8-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card9
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card9-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#grid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid4
+{
+   padding: 0px 15px 100px 15px;
+}
+#lygrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#grid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid3
+{
+   padding: 5px 15px 10px 15px;
+}
+#lygrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 699px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#cardcon1
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card2
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card2-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #222222;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card2-card-item0 a
+{
+   color: #222222;
+   text-decoration: none;
+}
+#card3
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card3-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card3-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#card4
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card4-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card4-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#grid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid1
+{
+   padding: 20px 15px 0px 15px;
+}
+#lygrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid1 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto1
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#grid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid2
+{
+   padding: 15px 15px 15px 15px;
+}
+#lygrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto2
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#card1
+{
+   width: calc(100% - 20px);
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFF00;
+   background-image: none;
+   border-radius: 15px;
+   margin: 10px 10px 0px 10px;
+}
+#Card1-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 15px 15px 0 0;
+   margin: 15px 15px 5px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#Card1-card-item1
+{
+   box-sizing: border-box;
+   border-radius: 0 0 15px 15px;
+   margin: 0px 15px 15px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#grid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid5
+{
+   padding: 0px 15px 10px 15px;
+}
+#lygrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#card7
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 0;
+}
+#Card7-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 10px 15px 10px 15px;
+   border-top: 1px #DEDEDE solid;
+   border-width: 1px 0 0 0;
+   height: 0;
+   line-height: 0;
+}
+#cardcon2
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card6
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card6-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card5
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card5-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card8
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card8-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card9
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card9-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#grid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid4
+{
+   padding: 0px 15px 100px 15px;
+}
+#lygrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#grid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid3
+{
+   padding: 5px 15px 10px 15px;
+}
+#lygrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+}
+@media only screen and (min-width: 425px) and (max-width: 479px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#cardcon1
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card2
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card2-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #222222;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card2-card-item0 a
+{
+   color: #222222;
+   text-decoration: none;
+}
+#card3
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card3-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card3-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#card4
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card4-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card4-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#grid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid1
+{
+   padding: 20px 15px 0px 15px;
+}
+#lygrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid1 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto1
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#grid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid2
+{
+   padding: 15px 15px 15px 15px;
+}
+#lygrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto2
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#card1
+{
+   width: calc(100% - 20px);
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFF00;
+   background-image: none;
+   border-radius: 15px;
+   margin: 10px 10px 0px 10px;
+}
+#Card1-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 15px 15px 0 0;
+   margin: 15px 15px 5px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#Card1-card-item1
+{
+   box-sizing: border-box;
+   border-radius: 0 0 15px 15px;
+   margin: 0px 15px 15px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#grid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid5
+{
+   padding: 0px 15px 10px 15px;
+}
+#lygrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#card7
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 0;
+}
+#Card7-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 10px 15px 10px 15px;
+   border-top: 1px #DEDEDE solid;
+   border-width: 1px 0 0 0;
+   height: 0;
+   line-height: 0;
+}
+#cardcon2
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card6
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card6-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card5
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card5-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card8
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card8-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card9
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card9-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#grid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid4
+{
+   padding: 0px 15px 100px 15px;
+}
+#lygrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#grid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid3
+{
+   padding: 5px 15px 10px 15px;
+}
+#lygrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+}
+@media only screen and (min-width: 390px) and (max-width: 424px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#cardcon1
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card2
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card2-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #222222;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card2-card-item0 a
+{
+   color: #222222;
+   text-decoration: none;
+}
+#card3
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card3-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card3-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#card4
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card4-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card4-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#grid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid1
+{
+   padding: 20px 15px 0px 15px;
+}
+#lygrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid1 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto1
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#grid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid2
+{
+   padding: 15px 15px 15px 15px;
+}
+#lygrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto2
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#card1
+{
+   width: calc(100% - 20px);
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFF00;
+   background-image: none;
+   border-radius: 15px;
+   margin: 10px 10px 0px 10px;
+}
+#Card1-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 15px 15px 0 0;
+   margin: 15px 15px 5px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#Card1-card-item1
+{
+   box-sizing: border-box;
+   border-radius: 0 0 15px 15px;
+   margin: 0px 15px 15px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#grid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid5
+{
+   padding: 0px 15px 10px 15px;
+}
+#lygrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#card7
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 0;
+}
+#Card7-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 10px 15px 10px 15px;
+   border-top: 1px #DEDEDE solid;
+   border-width: 1px 0 0 0;
+   height: 0;
+   line-height: 0;
+}
+#cardcon2
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card6
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card6-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card5
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card5-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card8
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card8-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card9
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card9-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#grid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid4
+{
+   padding: 0px 15px 100px 15px;
+}
+#lygrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#grid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid3
+{
+   padding: 5px 15px 10px 15px;
+}
+#lygrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+}
+@media only screen and (min-width: 360px) and (max-width: 389px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#cardcon1
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card2
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card2-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #222222;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card2-card-item0 a
+{
+   color: #222222;
+   text-decoration: none;
+}
+#card3
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card3-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card3-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#card4
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card4-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card4-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#grid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid1
+{
+   padding: 20px 15px 0px 15px;
+}
+#lygrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid1 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto1
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#grid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid2
+{
+   padding: 15px 15px 15px 15px;
+}
+#lygrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto2
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#card1
+{
+   width: calc(100% - 20px);
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFF00;
+   background-image: none;
+   border-radius: 15px;
+   margin: 10px 10px 0px 10px;
+}
+#Card1-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 15px 15px 0 0;
+   margin: 15px 15px 5px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#Card1-card-item1
+{
+   box-sizing: border-box;
+   border-radius: 0 0 15px 15px;
+   margin: 0px 15px 15px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#grid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid5
+{
+   padding: 0px 15px 10px 15px;
+}
+#lygrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#card7
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 0;
+}
+#Card7-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 10px 15px 10px 15px;
+   border-top: 1px #DEDEDE solid;
+   border-width: 1px 0 0 0;
+   height: 0;
+   line-height: 0;
+}
+#cardcon2
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card6
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card6-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card5
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card5-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card8
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card8-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card9
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card9-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#grid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid4
+{
+   padding: 0px 15px 100px 15px;
+}
+#lygrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#grid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid3
+{
+   padding: 5px 15px 10px 15px;
+}
+#lygrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+}
+@media only screen and (max-width: 359px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#cardcon1
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card2
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card2-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #222222;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card2-card-item0 a
+{
+   color: #222222;
+   text-decoration: none;
+}
+#card3
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card3-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card3-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#card4
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 5px 15px 5px 15px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card4-card-item0
+{
+   display: inline-block;
+   height: 15px;
+   box-sizing: border-box;
+   margin: 8px 8px 9px 8px;
+   padding: 0;
+   border: 0px none #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #888888;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 15px;
+}
+#Card4-card-item0 a
+{
+   color: #888888;
+   text-decoration: none;
+}
+#grid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid1
+{
+   padding: 20px 15px 0px 15px;
+}
+#lygrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid1 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto1
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto1
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#grid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid2
+{
+   padding: 15px 15px 15px 15px;
+}
+#lygrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#texto2
+{
+   visibility: visible;
+   display: block;
+   background-color: transparent;
+   background-image: none;
+}
+#texto2
+{
+   margin: 0px 15px 0px 15px;
+   padding: 0;
+}
+#card1
+{
+   width: calc(100% - 20px);
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFF00;
+   background-image: none;
+   border-radius: 15px;
+   margin: 10px 10px 0px 10px;
+}
+#Card1-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 15px 15px 0 0;
+   margin: 15px 15px 5px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#Card1-card-item1
+{
+   box-sizing: border-box;
+   border-radius: 0 0 15px 15px;
+   margin: 0px 15px 15px 15px;
+   padding: 0;
+   color: #202124;
+   font-family: Archivo;
+   font-weight: normal;
+   font-size: 19px;
+}
+#grid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid5
+{
+   padding: 0px 15px 10px 15px;
+}
+#lygrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid5 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#card7
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 0;
+}
+#Card7-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 10px 15px 10px 15px;
+   border-top: 1px #DEDEDE solid;
+   border-width: 1px 0 0 0;
+   height: 0;
+   line-height: 0;
+}
+#cardcon2
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#card6
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card6-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card5
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card5-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card8
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card8-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#card9
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 0%;
+   flex-basis: 0%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Card9-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 3px 3px 0 0;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#grid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid4
+{
+   padding: 0px 15px 100px 15px;
+}
+#lygrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#grid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#grid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lygrid3
+{
+   padding: 5px 15px 10px 15px;
+}
+#lygrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lygrid3 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lygrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+}
